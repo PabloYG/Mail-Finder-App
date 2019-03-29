@@ -1,0 +1,271 @@
+[INFO  - 2018-05-25T10:29:44.363Z] GhostDriver - Main - running on port 12918
+[INFO  - 2018-05-25T10:29:48.824Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-25T10:29:48.824Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.customHeaders:  - {}
+[INFO  - 2018-05-25T10:29:48.824Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-25T10:29:48.824Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8d195cc0-6006-11e8-b06a-3576558b7253
+[ERROR - 2018-05-25T10:29:49.955Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:29:49.956Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:29:51.007Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:29:51.007Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:03.223Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: Exception in queued GPT command TypeError: undefined is not a constructor (evaluating 'a.j()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:03.223Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  push (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:03.325Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'a.j()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:03.325Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  km (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+  nm (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+  Es (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+  Y (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_207.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:04.102Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:04.103Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:16.628Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:16.629Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:17.504Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:17.505Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:30.029Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:30.029Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:30.854Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:30.855Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:43.391Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:43.391Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:44.386Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:44.387Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:57.873Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:57.873Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:59.723Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:30:59.723Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:12.242Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:12.243Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:13.010Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:13.010Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:25.481Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:25.481Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:26.336Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:26.336Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:38.830Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:38.830Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:39.721Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:39.721Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:52.277Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:52.278Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:53.370Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:31:53.370Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:05.888Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:05.889Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:06.794Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:06.794Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:19.292Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:19.292Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:20.136Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:20.136Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:32.703Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:32.703Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:33.641Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:33.641Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:46.138Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:46.138Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:47.054Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:47.055Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:59.632Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:32:59.632Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:00.593Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:00.593Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:13.101Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:13.101Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:13.927Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'f.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-25T10:33:13.928Z] Session [8d195cc0-6006-11e8-b06a-3576558b7253] - page.onError - stack:
+  isAutoplayDesktopSupported (http://services.brid.tv/player/build/brid.min.js:19)
+  (anonymous function) (http://services.brid.tv/player/build/brid.min.js:48)
+
+  phantomjs://platform/console++.js:263 in error
