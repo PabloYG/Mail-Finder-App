@@ -2,15 +2,12 @@ import spreadsheet
 import spreadsheetOUTPUT
 from selenium import webdriver
 import time
-# from selenium.webdriver.common.keys import Keys
 
-
+# Extracts contact data from Google Sheet
 def sheet_decoder():
 
-    print("Yep")
-
     row_count = spreadsheet.sheet2.row_count
-
+    
     for i in range(2, row_count):
         row_values = spreadsheet.sheet2.row_values(i)
         try:
@@ -22,18 +19,15 @@ def sheet_decoder():
         except IndexError:
             exit()
         mail_combination(name, surname, company, email_sufix, gender)
-        # print(row_values)
 
 
+# Creates all combinations of contact data text for potential email addresses 
 def mail_combination(name, surname, company, email_sufix, gender):
 
-    # name = "marcial"
-    # surname = "corrales"
-    # email_sufix = "@idealmedia.es"
-    # gender = "o"
-
+    # Creates array of potential addresses
     mail_list = []
 
+    
     # Guess 1
     mail_guess = name + email_sufix
     mail_list.append(mail_guess)
@@ -106,27 +100,28 @@ def mail_combination(name, surname, company, email_sufix, gender):
     mail_guess = name + ".." + surname + email_sufix
     mail_list.append(mail_guess)
 
-    # ----- Call to MailTester
+   
+    # Invokes web scraper to query MailTester
     mail_tester_post(mail_list, name, surname, company, gender)
 
-
+# Initializes web driver and query loop to MailTester
 def mail_tester_post(mail_list, name, surname, company, gender):
 
-    # Use this for Headless Browser
-    # driver = webdriver.PhantomJS(executable_path="C:/MailFinder/phantomjs-2.1.1-windows/bin/phantomjs.exe")
-
-    # Use this to open Chrome Browser
+    # Opens Chrome Browser
     driver = webdriver.Chrome()
 
-    # Use this to open Firefox Browser
+    # Opens Firefox Browser (deprecated)
     # driver = webdriver.Firefox()
-
+    
+    # Inputs data in order
     entry_loop(mail_list, name, surname, company, gender, driver)
+    
+    # Closes driver after each session
     driver.close()
 
-
+# Loops over all potential addresses to find real ones
 def entry_loop(mail_list, name, surname, company, gender, driver):
-
+   
     for i in range(0, len(mail_list)):
 
         driver.get("http://mailtester.com/")
@@ -154,7 +149,7 @@ def entry_loop(mail_list, name, surname, company, gender, driver):
             if loop_time > 60:
                 return
 
-
+# Saves real addresses in Google Sheet
 def sheet_encoder(email, name, surname, company, gender):
 
     row_values = spreadsheetOUTPUT.sheet1.col_values(1)
